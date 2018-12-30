@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/19/2015 2:14:31 PM -->
+<!-- Add Man O War unit. High range and low mobility naval unit -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_MAN_O_WAR</Type>
+			<DefaultUnit>UNIT_MAN_O_WAR</DefaultUnit>
+			<Description>TXT_KEY_UNIT_MAN_O_WAR</Description>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MAN_O_WAR</Class>
+			<Type>UNIT_MAN_O_WAR</Type>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+			<Combat>21</Combat>
+			<RangedCombat>28</RangedCombat>
+			<Cost>205</Cost>
+			<Moves>4</Moves>
+			<Range>3</Range>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MAN_O_WAR</Description>
+			<Civilopedia>TXT_KEY_CIV5_MAN_O_WAR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MAN_O_WAR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MAN_O_WAR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_XP_PRIVATEER</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MAN_O_WAR</UnitType>
+			<UnitClassType>UNITCLASS_BATTLE_CRUISER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_MAN_O_WAR</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MAN_O_WAR</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MAN_O_WAR</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+	<Row>
+			<UnitType>UNIT_MAN_O_WAR</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_MAN_O_WAR">
+			<Text>Man O War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MAN_O_WAR">
+			<Text>Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAN_O_WAR_STRATEGY">
+			<Text>Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MAN_O_WAR_TEXT">
+			<Text>The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+	<Row Tag="TXT_KEY_UNIT_MAN_O_WAR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Man O War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MAN_O_WAR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAN_O_WAR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MAN_O_WAR_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+	<Row Tag="TXT_KEY_UNIT_MAN_O_WAR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Man O War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MAN_O_WAR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAN_O_WAR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MAN_O_WAR_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+	<Row Tag="TXT_KEY_UNIT_MAN_O_WAR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Man O War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MAN_O_WAR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAN_O_WAR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MAN_O_WAR_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Lakes now produce 3 Food by default -->
+	<Yields>
+		<Update>
+			<Set LakeChange="2" />
+			<Where Type="YIELD_FOOD" />
+		</Update>
+	</Yields>
+</GameData>

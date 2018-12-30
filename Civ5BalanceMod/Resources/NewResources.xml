@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/15/2017 3:53:33 AM -->
+<GameData>
+	
+	<Resources>
+	<!-- Attempting to add health modifier for this, will also require a new improvement
+		<Row>
+			<Type>RESOURCE_TOBACCO</Type>
+			<Happiness>6</Happiness>
+			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_TOBACCO</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TOBACCO_TEXT</Civilopedia>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_WINE</ArtDefineTag>
+			<PlacementOrder>100</PlacementOrder>
+			<ConstAppearance>10</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<Flatlands>true</Flatlands>
+			<GroupRange>3</GroupRange>
+			<GroupRand>15</GroupRand>
+			<IconString>[ICON_RES_WINE]</IconString>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		-->
+		<Row>
+			<Type>RESOURCE_SILICON</Type>
+			<TechReveal>TECH_ELECTRONICS</TechReveal>
+			<TechCityTrade>TECH_MINING</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_SILICON</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SILICON_TEXT</Civilopedia>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_GOLD</ArtDefineTag>
+			<AltArtDefineTag>ART_DEF_RESOURCE_GOLD</AltArtDefineTag>
+			<AIObjective>3</AIObjective>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<Hills>true</Hills>
+			<IconString>[ICON_RES_GOLD]</IconString>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_SILICON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SILICON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_SILICON</ResourceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Resource_Flavors>
+</GameData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by FruitStrike on 6/9/2015 11:28:46 PM -->
+<GameData>
+
+	<!-- Branch tooltip -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of one's army in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives a +33% combat bonus VS Barbarians. Gain [ICON_CULTURE] Culture for the empire for each enemy unit killed. Unlocks building the Temple of Artemis.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree will grant additional [ICON_GOLD] Gold for each enemy unit killed. Courthouses provide +2 [ICON_RESEARCH] Science and +10% [ICON_RESEARCH] Science from the palace. Great Generals can be purchased with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- HONOR OPENER -->
+	<Policies>
+		<Update>
+			<Set CultureFromKills="100" CultureFromBarbarianKills="0" />
+			<Where Type="POLICY_HONOR" />
+		</Update>
+	</Policies>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+			<Set PolicyBranchType="NULL"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
+			<Set PolicyBranchType="POLICY_BRANCH_HONOR"/>
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Update>
+			<Set Text="" />
+			<Where Tag="" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="" />
+		</Update>
+	</Language_en_US>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP">
+			<Text>All units gain +15% [ICON_STRENGTH] combat strength when attacking cities.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP" />
+		<Row Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP">
+			<Text>Requires Honor. +10% [ICON_FOOD] Growth in all cities. +15% [ICON_PRODUCTION] Production when building ranged units.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- HONOR FINISHER -->
+	<!-- *** NOTE: Help text updated with Honor Opener. -->
+	<Policies>
+		<Update>
+			<Set GoldFromKills="75" IncludesOneShotFreeUnits="true" />
+			<Where Type="POLICY_HONOR_FINISHER" />
+		</Update>
+	</Policies>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_HONOR_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_HONOR_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+</GameData>

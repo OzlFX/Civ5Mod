@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/19/2015 2:14:31 PM -->
+<!-- Add the Gun Brig, a hybrid unit which is an upgrade of the Quinquereme -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_GUNBRIG</Type>
+			<DefaultUnit>UNIT_GUNBRIG</DefaultUnit>
+			<Description>TXT_KEY_UNIT_GUNBRIG</Description>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_GUNBRIG</Class>
+			<Type>UNIT_GUNBRIG</Type>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<Combat>20</Combat>
+			<RangedCombat>19</RangedCombat>
+			<Cost>162</Cost>
+			<Moves>6</Moves>
+			<Range>1</Range>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GUNBRIG</Description>
+			<Civilopedia>TXT_KEY_CIV5_GUNBRIG_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GUNBRIG_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GUNBRIG</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ELECTRONICS</ObsoleteTech>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CARAVEL</UnitArtInfo>
+			<UnitFlagIconOffset>42</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_GUNBRIG</UnitType>
+			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_GUNBRIG</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GUNBRIG</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_GUNBRIG</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_GUNBRIG">
+			<Text>Gun Brig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUNBRIG">
+			<Text>Renaissance Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUNBRIG_STRATEGY">
+			<Text>Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUNBRIG_TEXT">
+			<Text>Gun Brig's were developed as small defencive vessels which protected inshore and coastlines. They were known for their abilities in short range combats firing at enemy vessels head on as well as engaging side-by-side. Wiki link: https://en.wikipedia.org/wiki/List_of_gun-brigs_of_the_Royal_Navy</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+	<Row Tag="TXT_KEY_UNIT_GUNBRIG">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Gun Brig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUNBRIG">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUNBRIG_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands early from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUNBRIG_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Gun Brig's were developed as small defencive vessels which protected inshore and coastlines. They were known for their abilities in short range combats firing at enemy vessels head on as well as engaging side-by-side. Wiki link: https://en.wikipedia.org/wiki/List_of_gun-brigs_of_the_Royal_Navy</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+	<Row Tag="TXT_KEY_UNIT_GUNBRIG">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Gun Brig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUNBRIG">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUNBRIG_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands early from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUNBRIG_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Gun Brig's were developed as small defencive vessels which protected inshore and coastlines. They were known for their abilities in short range combats firing at enemy vessels head on as well as engaging side-by-side. Wiki link: https://en.wikipedia.org/wiki/List_of_gun-brigs_of_the_Royal_Navy</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+	<Row Tag="TXT_KEY_UNIT_GUNBRIG">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Gun Brig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUNBRIG">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUNBRIG_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands early from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUNBRIG_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Gun Brig's were developed as small defencive vessels which protected inshore and coastlines. They were known for their abilities in short range combats firing at enemy vessels head on as well as engaging side-by-side. Wiki link: https://en.wikipedia.org/wiki/List_of_gun-brigs_of_the_Royal_Navy</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

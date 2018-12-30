@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/19/1017 5:57:06 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJERA</Type>
+			<DefaultBuilding>BUILDING_DJERA</DefaultBuilding>
+			<Description>TXT_KEY_WONDER_DJERA_DESC</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJERA</Type>
+			<BuildingClass>BUILDINGCLASS_DJERA</BuildingClass>
+			<Cost>260</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Help>TXT_KEY_WONDER_DJERA_STRATEGY</Help>
+			<Description>TXT_KEY_WONDER_DJERA_DESC</Description>
+			<Civilopedia>TXT_KEY_WONDER_DJERA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_WONDER_DJERA_STRATEGY</Strategy>
+			<Quote>TXT_KEY_WONDER_DJERA_QUOTE</Quote>
+			<ArtDefineTag>PETRA</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<NearbyTerrainRequired>TERRAIN_TUNDRA</NearbyTerrainRequired>
+			<EnhancedYieldTech>TECH_ARCHAEOLOGY</EnhancedYieldTech>
+			<FreeBuildingThisCity>BUILDINGCLASS_AMPHITHEATER</FreeBuildingThisCity>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>WonderConceptPetra.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_PETRA</WonderSplashAudio>
+		</Row>
+	</Buildings>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJERA</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJERA</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJERA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJERA</BuildingType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJERA</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_DJERA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_DJERA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_DJERA_DESC">
+			<Text>Djera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_PEDIA">
+			<Text>Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_STRATEGY">
+			<Text>Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Let there be life in all things... in every corner of the globe" [NEWLINE]- Unknown[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_WONDER_DJERA_DESC">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Djera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][NEWLINE][TAB][TAB]"Let there be life in all things... in every corner of the globe" [NEWLINE]- Unknown[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_WONDER_DJERA_DESC">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Djera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][NEWLINE][TAB][TAB]"Let there be life in all things... in every corner of the globe" [NEWLINE]- Unknown[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_WONDER_DJERA_DESC">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Djera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Djera provides +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production on all tundra tiles in range of this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_DJERA_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][NEWLINE][TAB][TAB]"Let there be life in all things... in every corner of the globe" [NEWLINE]- Unknown[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

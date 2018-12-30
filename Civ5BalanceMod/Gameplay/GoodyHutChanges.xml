@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by OzlFX on 9/17/2016 5:34:12 PM -->
+<GameData>
+	<!-- Merge Map + Barb ruin, and make them do a map 5 tiles radius from the ruin, with no empty spaces
+	Remove faith and culture gifting ruins -->
+	<GoodyHuts>
+		<Update>
+			<Set RevealNearbyBarbariansRange="5" MapOffset="1" MapRange="5" MapProb="80" />
+			<Where Type="GOODY_MAP" />
+		</Update>
+	</GoodyHuts>
+	<HandicapInfo_Goodies>
+		<Delete GoodyType="GOODY_REVEAL_NEARBY_BARBS" />
+		<Delete GoodyType="GOODY_CULTURE" />
+		<Delete GoodyType="GOODY_PANTHEON_FAITH" />
+		<Delete GoodyType="GOODY_PROPHET_FAITH" />
+	</HandicapInfo_Goodies>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_GOODY_MAP" />
+		<Row Tag="TXT_KEY_GOODY_MAP">
+			<Text>You discover a crudely-drawn map which outlines nearby terrain and evidence of recent barbarian activity!</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_GOODY_CHOOSE_MAP" />
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_MAP">
+			<Text>Study their maps of nearby territory and barbarians.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_GOODY_MAP" />
+		<Row Tag="TXT_KEY_GOODY_MAP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][NEWLINE]You discover a crudely-drawn map which outlines nearby terrain and evidence of recent barbarian activity!</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_GOODY_CHOOSE_MAP" />
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_MAP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][NEWLINE]Study their maps of nearby territory and barbarians.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_GOODY_MAP" />
+		<Row Tag="TXT_KEY_GOODY_MAP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][NEWLINE]You discover a crudely-drawn map which outlines nearby terrain and evidence of recent barbarian activity!</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_GOODY_CHOOSE_MAP" />
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_MAP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][NEWLINE]Study their maps of nearby territory and barbarians.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_GOODY_MAP" />
+		<Row Tag="TXT_KEY_GOODY_MAP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][NEWLINE]You discover a crudely-drawn map which outlines nearby terrain and evidence of recent barbarian activity!</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_GOODY_CHOOSE_MAP" />
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_MAP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][NEWLINE]Study their maps of nearby territory and barbarians.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

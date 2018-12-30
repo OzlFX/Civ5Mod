@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by FruitStrike on 9/17/2016 2:53:44 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set SpecialistType="SPECIALIST_ARTIST" />
+			<Where BuildingClass="BUILDINGCLASS_NOTRE_DAME" />
+		</Update>
+	</Buildings>
+</GameData>

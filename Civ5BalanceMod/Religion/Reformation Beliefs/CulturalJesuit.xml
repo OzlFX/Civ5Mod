@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/13/2017 2:01:13 AM -->
+<GameData>
+	<!-- May purchase Amphitheaters, Opera Houses, and Broadcast Towers with Faith -->
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_CULTURAL_JESUIT</Type>
+			<Description>TXT_KEY_BELIEF_CULTURAL_JESUIT</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CULTURAL_JESUIT_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+	<Buildings>
+		<Update>
+			<Set FaithCost="100" UnlockedByBelief="true" />
+			<Where Type="BUILDING_AMPHITHEATER" />
+		</Update>
+		<Update>
+			<Set FaithCost="200" UnlockedByBelief="true" />
+			<Where Type="BUILDING_OPERA_HOUSE" />
+		</Update>
+		<Update>
+			<Set FaithCost="250" UnlockedByBelief="true" />
+			<Where Type="BUILDING_CEILIDH_HALL" />
+		</Update>
+		<Update>
+			<Set FaithCost="500" UnlockedByBelief="true" />
+			<Where Type="BUILDING_BROADCAST_TOWER" />
+		</Update>
+		<Update>
+			<Set FaithCost="350" UnlockedByBelief="true" />
+			<Where Type="BUILDING_MUSEUM" />
+		</Update>
+	</Buildings>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDING_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDING_MUSEUM</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDING_CEILIDH_HALL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CULTURAL_JESUIT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_CULTURAL_JESUIT_SHORT">
+			<Text>Cultural Enlightenment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CULTURAL_JESUIT">
+			<Text>May purchase Amphitheaters, Opera Houses, Museums, and Broadcast Towers with [ICON_PEACE] Faith. In addition, all purchasable cultural buildings grant +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

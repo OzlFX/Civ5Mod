@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by OzlFX on 4/22/2016 5:17:59 PM -->
+<GameData>
+
+	<!-- Add +1 base movement to Great Generals -->
+	<Units>
+		<Update>
+			<Set Moves="3" />
+			<Where Type="UNIT_GREAT_GENERAL" />
+		</Update>
+	</Units>
+	
+</GameData>

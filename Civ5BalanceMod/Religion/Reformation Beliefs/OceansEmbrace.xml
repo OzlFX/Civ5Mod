@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add new reformation belief. +1 culture and tourism from every buildable ocean buildings -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_OCEANS_EMBRACE</Type>
+			<Description>TXT_KEY_BELIEF_OCEANS_EMBRACE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_OCEANS_EMBRACE_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_EMBRACE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_EMBRACE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HARBOUR</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_EMBRACE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	<Belief_BuildingClassTourism>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_EMBRACE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<Tourism>1</Tourism>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_EMBRACE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HARBOUR</BuildingClassType>
+			<Tourism>1</Tourism>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_EMBRACE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<Tourism>1</Tourism>
+		</Row>
+	</Belief_BuildingClassTourism>
+	<Language_en_US>
+		<!-- Religious Trade -->
+		<Row Tag="TXT_KEY_BELIEF_OCEANS_EMBRACE_SHORT">
+			<Text>Ocean's Embrace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OCEANS_EMBRACE">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism for every lighthouse, harbour and seaport in each city.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

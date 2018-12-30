@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/12/2017 5:27:11 AM -->
+<GameData>
+	<Builds>
+		<Row>
+			<Type>BUILD_JLLURA_PASTURE</Type>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<Time>750</Time>
+			<ImprovementType>IMPROVEMENT_JLLURA_PASTURE</ImprovementType>
+			<Description>TXT_KEY_BUILD_JLLURA_PASTURE</Description>
+			<Help>TXT_KEY_BUILD_JLLURA_PASTURE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_JLLURA_PASTURE_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_Z</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>1</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_JLLURA_PASTURE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_JLLURA_PASTURE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_JLLURA_PASTURE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_JLLURA_PASTURE</BuildType>
+		</Row>
+	</Unit_Builds>
+</GameData>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/19/2018 11:43:13 PM -->
+<GameData>
+	<!-- Doesnt work as intended, may need to actually hard code this into the game -->
+	<!-- Will change to allow for Emissary units to be built in half the time and allow for the construction of the embassy (provides 1 addtional vote in the world congress and grants 2 free emissaries)  -->
+	<!-- Emissary unit to give no gold for trade missions but lots of influence (doubled with this policy) -->
+	<Policies>
+		<Update>
+			<Set MinorFriendshipMinimum="0" />
+			<Where Type="POLICY_CONSULATES" />
+		</Update>
+	</Policies>
+	
+	<!-- BuildingClasses for Embassy -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_EMBASSY</Type>
+			<DefaultBuilding>BUILDING_EMBASSY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_EMBASSY_DESC</Description>
+			<MaxPlayerInstances>4</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+
+	<!-- Define new buildable embassy which gives extra votes in the congress -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_EMBASSY</Type>
+			<BuildingClass>BUILDINGCLASS_EMBASSY</BuildingClass>
+			<Cost>140</Cost>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PolicyBranchType>POLICY_CONSULATES</PolicyBranchType>
+			<NukeImmune>true</NukeImmune>
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+			<Help>TXT_KEY_BUILDING_EMBASSY_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_EMBASSY_DESC</Description>
+			<Strategy>TXT_KEY_BUILDING_EMBASSY_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+	</Buildings>
+	
+	<!-- Add Emissary to the game -->
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EMISSARY</Type>
+			<Description>TXT_KEY_UNIT_EMISSARY</Description>
+			<DefaultUnit>UNIT_EMISSARY</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EMISSARY</Class>
+			<Type>UNIT_EMISSARY</Type>
+			<Cost>160</Cost>
+			<Moves>4</Moves>
+			<Capture>UNITCLASS_EMISSARY</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<PolicyType>POLICY_CONSULATES</PolicyType>
+			<DefaultUnitAI>UNITAI_MERCHANT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EMISSARY</Description>
+			<Help>TXT_KEY_UNIT_EMISSARY_STRATEGY</Help>
+			<Strategy>TXT_KEY_UNIT_EMISSARY_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<BaseGold>-50</BaseGold>
+			<NumGoldPerEra>0</NumGoldPerEra>
+			<UnitArtInfo>ART_DEF_UNIT_MERCHANT</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>92</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
+		</Row>
+	</Units>
+	
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EMISSARY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_EMBASSY</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_CONSULATES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR][NEWLINE]Grants the ability to build the Embassy building in your cities (Max 4) and also grants the ability to train Emissaries which perform diplomatic missions to gain imfluence in city states.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EMBASSY_DESC">
+			<Text>Embassy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EMBASSY_STRATEGY">
+			<Text>Grants you 1 additional Delegate in the World Congress.[NEWLINE][NEWLINE]This building can be built in any city after adopting the Consulates policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>Emissary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>The Emissary instantly gives an extra 30 influence to city states after conducting a trade mission.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_CONSULATES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR][NEWLINE]Grants the ability to build the Embassy building in your cities (Max 4) and also grants the ability to train Emissaries which perform diplomatic missions to gain imfluence in city states.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EMBASSY_DESC">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Embassy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RENAISSANCE_CONSULATE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Grants you 1 additional Delegate in the World Congress.[NEWLINE][NEWLINE]This building can be built in any city after adopting the Consulates policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Emissary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Emissary instantly gives an extra 30 influence to city states after conducting a trade mission.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_CONSULATES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR][NEWLINE]Grants the ability to build the Embassy building in your cities (Max 4) and also grants the ability to train Emissaries which perform diplomatic missions to gain imfluence in city states.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EMBASSY_DESC">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Embassy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RENAISSANCE_CONSULATE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Grants you 1 additional Delegate in the World Congress.[NEWLINE][NEWLINE]This building can be built in any city after adopting the Consulates policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Emissary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Emissary instantly gives an extra 30 influence to city states after conducting a trade mission.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_CONSULATES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR][NEWLINE]Grants the ability to build the Embassy building in your cities (Max 4) and also grants the ability to train Emissaries which perform diplomatic missions to gain imfluence in city states.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EMBASSY_DESC">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Embassy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RENAISSANCE_CONSULATE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Grants you 1 additional Delegate in the World Congress.[NEWLINE][NEWLINE]This building can be built in any city after adopting the Consulates policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Emissary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Emissary instantly gives an extra 30 influence to city states after conducting a trade mission.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by OzlFX on 7/9/2018 7:43:29 PM -->
+<GameData>
+	<!-- Branch Tooltip -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety provides you with +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith in the [ICON_CAPITAL] Capital and allows you to build Shrines and Temples in half the usual time and unlocks Building the Obelisk.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear and provides +4 [ICON_PRODUCTION] from the Grand Temple. Holy Sites provide +1 [ICON_FOOD] Food, +1 [ICON_PEACE] Faith and +3 [ICON_CULTURE] Culture.[NEWLINE]Also allows the purchasing of the Pilgrims unit which can found cities and spread religion at reduced strength.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety provides you with +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith in the [ICON_CAPITAL] Capital and allows you to build Shrines and Temples in half the usual time and Unlocks Building the Obelisk.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear and provides +4 [ICON_PRODUCTION] from the Grand Temple. Holy Sites provide +1 [ICON_FOOD] Food, +1 [ICON_PEACE] Faith and +3 [ICON_CULTURE] Culture.[NEWLINE]Also allows the purchasing of the Pilgrims unit which can found cities and spread religion at reduced strength.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety provides you with +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith in the [ICON_CAPITAL] Capital and allows you to build Shrines and Temples in half the usual time and Unlocks Building the Obelisk.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear and provides +4 [ICON_PRODUCTION] from the Grand Temple. Holy Sites provide +1 [ICON_FOOD] Food, +1 [ICON_PEACE] Faith and +3 [ICON_CULTURE] Culture.[NEWLINE]Also allows the purchasing of the Pilgrims unit which can found cities and spread religion at reduced strength.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety provides you with +1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith in the [ICON_CAPITAL] Capital and allows you to build Shrines and Temples in half the usual time and Unlocks Building the Obelisk.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear and provides +4 [ICON_PRODUCTION] from the Grand Temple. Holy Sites provide +1 [ICON_FOOD] Food, +1 [ICON_PEACE] Faith and +3 [ICON_CULTURE] Culture.[NEWLINE]Also allows the purchasing of the Pilgrims unit which can found cities and spread religion at reduced strength.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<!-- PIETY OPENER -->
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_MOSQUE_OF_DJENNE" />
+			<Set PolicyBranchType= "NULL" />
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+			<Text>All Missionaries born in this city can spread religion three times.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- PIETY FINISHER -->
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<!-- Pilgrims unit unique to piety finisher -->
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_PILGRIMS</Type>
+			<Description>TXT_KEY_UNIT_PILGRIMS</Description>
+			<DefaultUnit>UNIT_PILGRIMS</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_PILGRIMS</Class>
+			<Type>UNIT_PILGRIMS</Type>
+			<Cost>-1</Cost>
+			<FaithCost>220</FaithCost>
+			<Moves>4</Moves>
+			<Capture>UNITCLASS_MISSIONARY</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PILGRIMS</Description>
+			<Civilopedia>TXT_KEY_CIV5_PILGRIMS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PILGRIMS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PILGRIMS</Help>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
+			<Food>true</Food>
+			<Found>true</Found>
+			<SpreadReligion>true</SpreadReligion>
+			<ReligionSpreads>1</ReligionSpreads>
+			<ReligiousStrength>300</ReligiousStrength>
+			<UnitArtInfo>ART_DEF_UNIT_GREAT_PROPHET</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+	</Units>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS">
+			<Text>Pilgrims</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS_STRATEGY">
+			<Text>A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PILGRIMS_TEXT">
+			<Text>Pilgrims set up camps and outposts when they travel, often returning to those lands to reduce travel times in future pilgrimages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PILGRIMS">
+			<Text>A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Pilgrims</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PILGRIMS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Pilgrims set up camps and outposts when they travel, often returning to those lands to reduce travel times in future pilgrimages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PILGRIMS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Pilgrims</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PILGRIMS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Pilgrims set up camps and outposts when they travel, often returning to those lands to reduce travel times in future pilgrimages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PILGRIMS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Pilgrims</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PILGRIMS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PILGRIMS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Pilgrims set up camps and outposts when they travel, often returning to those lands to reduce travel times in future pilgrimages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PILGRIMS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler type unit that can only be purchased with faith. This unit can settle cities and spread a religion once at slightly lower strength than the missionary.[NEWLINE]This unit is available for adopting all policies in the piety tree.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2017 1:56:41 PM -->
+<GameData>
+  <!-- Originally Created by: sukritact (http://steamcommunity.com/sharedfiles/filedetails/?id=200549145) -->
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_ABUSIMBEL" />
+			<Set PrereqTech="TECH_CONSTRUCTION" />
+		</Update>
+	</Buildings>
+</GameData>

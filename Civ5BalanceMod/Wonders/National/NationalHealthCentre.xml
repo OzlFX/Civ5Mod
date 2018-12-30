@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/13/2017 4:52:28 AM -->
+<GameData>
+	<BuildingClasses>
+		<!-- National Wonder -->
+		<Row>
+			<Type>BUILDINGCLASS_NATIONAL_HEALTH_CENTRE</Type>
+			<DefaultBuilding>BUILDING_NATIONAL_HEALTH_CENTRE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NATIONAL_HEALTH_CENTRE</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NATIONAL_HEALTH_CENTRE</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_HEALTH_CENTRE</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NATIONAL_HEALTH_CENTRE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_NATIONAL_HEALTH_CENTRE</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NATIONAL_HEALTH_CENTRE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_NATIONAL_HEALTH_CENTRE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_HOSPITAL</ArtDefineTag>
+			<UnmoddedHappiness>2</UnmoddedHappiness>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>45</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_HEALTH_CENTRE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_RiverPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_HEALTH_CENTRE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_RiverPlotYieldChanges>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_HEALTH_CENTRE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_HEALTH_CENTRE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_HEALTH_CENTRE</BuildingType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_HEALTH_CENTRE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_HEALTH_CENTRE">
+			<Text>Nation Health Centre [COLOR_CYAN]*[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_HEALTH_CENTRE_HELP">
+			<Text>[COLOR_CYAN]* National Wonder (each player may build one)[ENDCOLOR][NEWLINE][NEWLINE]Must have built a Hospital in all Cities. The cost goes up the more cities there are in the empire. +20% [ICON_FOOD] Food intake and + 1 [ICON_FOOD] Food from tiles adjacent to rivers in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_NATIONAL_HEALTH_CENTRE">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_HEALTH_CENTRE_STRATEGY">
+			<Text>The National Health Centre provides +20% increase to the food intake of the city in which it was built. It also provides +2 flat happiness for the whole empire.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

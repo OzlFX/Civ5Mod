@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/1/2017 4:39:20 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_HOLY_BARRACKS</Type>
+			<Description>TXT_KEY_BELIEF_HOLY_BARRACKS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_HOLY_BARRACKS_SHORT</ShortDescription>
+			<Follower>true</Follower>
+			<MinFollowers>0</MinFollowers>
+		</Row>
+	</Beliefs>
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_HOLY_BARRACKS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HOLY_BARRACKS</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_HOLY_BARRACKS</Type>
+			<DefaultBuilding>BUILDING_HOLY_BARRACKS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HOLY_BARRACKS</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HOLY_BARRACKS</Type>
+			<BuildingClass>BUILDINGCLASS_HOLY_BARRACKS</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>200</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<Description>TXT_KEY_BUILDING_HOLY_BARRACKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_HOLY_BARRACKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HOLY_BARRACKS_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>10</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>10</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLY_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<!-- Holy Barracks -->
+		<Row Tag="TXT_KEY_BELIEF_HOLY_BARRACKS_SHORT">
+			<Text>Holy Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HOLY_BARRACKS">
+			<Text>Use [ICON_PEACE] Faith to purchase Holy Barracks (+1 [ICON_PEACE] Faith, New units gain +10 experience and land units gain a +10% production modifier to land units)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOLY_BARRACKS">
+			<Text>Holy Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_HOLY_BARRACKS_TEXT">
+			<Text>The Holy Barracks was developed during the Crusades to help fend off the incoming invaders. The Soldiers didnt have much training but were produced quickly to help re-enforce the front lines only armed with a sword and a small wooden shield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOLY_BARRACKS_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Holy Barracks belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

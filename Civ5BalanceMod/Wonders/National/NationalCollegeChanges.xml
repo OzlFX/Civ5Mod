@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Reduce the science yield modifier for the National College -->
+	<Building_YieldModifiers>
+		<Update>
+			<Set Yield="25" />
+			<Where BuildingType="BUILDING_NATIONAL_COLLEGE" />
+		</Update>
+	</Building_YieldModifiers>
+</GameData>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/19/2015 2:14:31 PM -->
+<!-- Make Quinquereme available to all civs as hybrid unit -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_QUINQUEREME</Type>
+			<DefaultUnit>UNIT_QUINQUEREME</DefaultUnit>
+			<Description>TXT_KEY_UNIT_QUINQUEREME</Description>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Delete Type="UNIT_CARTHAGINIAN_QUINQUEREME" />
+		<Row>
+			<Class>UNITCLASS_QUINQUEREME</Class>
+			<Type>UNIT_QUINQUEREME</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Combat>10</Combat>
+			<RangedCombat>6</RangedCombat>
+			<Cost>54</Cost>
+			<Moves>6</Moves>
+			<Range>1</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_QUINQUEREME</Description>
+			<Civilopedia>TXT_KEY_CIV5_QUINQUEREME_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_QUINQUEREME_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_QUINQUEREME</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_CARTHAGE_QUINQUEREME</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_QUINQUEREME</UnitType>
+			<UnitClassType>UNITCLASS_GUNBRIG</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_QUINQUEREME</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_QUINQUEREME</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_QUINQUEREME</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_QUINQUEREME</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_QUINQUEREME">
+			<Text>Quinquereme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_QUINQUEREME">
+			<Text>Ancient Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_QUINQUEREME_STRATEGY">
+			<Text>Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands early from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_QUINQUEREME_TEXT">
+			<Text>The Quinquereme, originally a unit built by the Carthage and Roman Empires in the 4th Century BC, was a large ored vessel capable of housing a large number of units including archers and swordsmen. Wiki link: https://en.wikipedia.org/wiki/Hellenistic-era_warships#Quinquereme</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+	<Row Tag="TXT_KEY_UNIT_QUINQUEREME">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Quinquereme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_QUINQUEREME">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Ancient Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_QUINQUEREME_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands early from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_QUINQUEREME_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Quinquereme, originally a unit built by the Carthage and Roman Empires in the 4th Century BC, was a large ored vessel capable of housing a large number of units including archers and swordsmen. Wiki link: https://en.wikipedia.org/wiki/Hellenistic-era_warships#Quinquereme</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+	<Row Tag="TXT_KEY_UNIT_QUINQUEREME">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Quinquereme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_QUINQUEREME">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Ancient Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_QUINQUEREME_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands early from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_QUINQUEREME_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Quinquereme, originally a unit built by the Carthage and Roman Empires in the 4th Century BC, was a large ored vessel capable of housing a large number of units including archers and swordsmen. Wiki link: https://en.wikipedia.org/wiki/Hellenistic-era_warships#Quinquereme</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+	<Row Tag="TXT_KEY_UNIT_QUINQUEREME">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Quinquereme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_QUINQUEREME">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Ancient Era unit with low range and can melee attack, can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_QUINQUEREME_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's short range, high mobility and ability to disengage, it can provide good support for your units in battle. Its better to use this unit to defend your lands early from naval attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_QUINQUEREME_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Quinquereme, originally a unit built by the Carthage and Roman Empires in the 4th Century BC, was a large ored vessel capable of housing a large number of units including archers and swordsmen. Wiki link: https://en.wikipedia.org/wiki/Hellenistic-era_warships#Quinquereme</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<!-- Amphitheaters now provide +2 Culture by default. -->
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE" />
+		</Update>
+	</Building_YieldChanges>
+	
+</GameData>

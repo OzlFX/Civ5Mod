@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/19/2015 2:14:31 PM -->
+<!-- Add Man O War unit. High range and low mobility naval unit -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_FIRE_SHIP</Type>
+			<DefaultUnit>UNIT_FIRE_SHIP</DefaultUnit>
+			<Description>TXT_KEY_UNIT_FIRE_SHIP</Description>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_FIRE_SHIP</Class>
+			<Type>UNIT_FIRE_SHIP</Type>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+			<Combat>28</Combat>
+			<Cost>200</Cost>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FIRE_SHIP</Description>
+			<Civilopedia>TXT_KEY_CIV5_FIRE_SHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FIRE_SHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FIRE_SHIP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Suicide>true</Suicide>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ELECTRONICS</ObsoleteTech>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CARAVEL</UnitArtInfo>
+			<UnitFlagIconOffset>42</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_FIRE_SHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FIRE_SHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_FIRE_SHIP">
+			<Text>Fire Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FIRE_SHIP">
+			<Text>Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIRE_SHIP_STRATEGY">
+			<Text>Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIRE_SHIP_TEXT">
+			<Text>The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+	<Row Tag="TXT_KEY_UNIT_FIRE_SHIP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Fire Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FIRE_SHIP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIRE_SHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIRE_SHIP_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+	<Row Tag="TXT_KEY_UNIT_FIRE_SHIP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Fire Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FIRE_SHIP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIRE_SHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIRE_SHIP_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+	<Row Tag="TXT_KEY_UNIT_FIRE_SHIP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Fire Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FIRE_SHIP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Renaissance Era unit with high range and low mobility, very good at dealing high damage to enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIRE_SHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Due to the unit's high range and low mobility, it can pick off enemy vessels from afar. Its better to use this unit to pick off other flapships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIRE_SHIP_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Man O War was a large, highly immobilie, high ranged war ship that was mainly used as flag ships during wars. They were excellent at sieging and fighting large vessles.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

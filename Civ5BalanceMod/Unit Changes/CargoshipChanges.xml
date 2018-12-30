@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/30/2015 11:10:55 PM -->
+<GameData>
+	<!-- Nerf Cargoships -->
+	<Units>
+		<Update>
+			<Set PrereqTech="TECH_OPTICS" />
+			<Where Type="UNIT_CARGO_SHIP" />
+		</Update>
+	</Units>
+</GameData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/8/2017 10:00:10 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_RELIGIOUS_TRADE</Type>
+			<Description>TXT_KEY_BELIEF_RELIGIOUS_TRADE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_TRADE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	<Belief_YieldChangeTradeRoute>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_TRADE</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Belief_YieldChangeTradeRoute>
+	<Language_en_US>
+		<!-- Religious Trade -->
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_TRADE_SHORT">
+			<Text>Religious Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_TRADE">
+			<Text>+5 [ICON_PEACE] Faith from [ICON_CONNECTED] City Connections</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/13/2017 12:42:03 AM -->
+<GameData>
+	<Beliefs>
+		<!--<Update>
+			<Set Follower="false" Reformation="true" />
+			<Where Type="BELIEF_HOLY_WARRIORS" />
+		</Update>-->
+		<Delete Type="BELIEF_HOLY_WARRIORS" />
+		<!-- Recreate as reformation belief -->
+		<Row>
+			<Type>BELIEF_HOLY_WARRIORS</Type>
+			<Description>TXT_KEY_BELIEF_HOLY_WARRIORS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+	<Belief_EraFaithUnitPurchase>
+	<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_ANCIENT</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_CLASSICAL</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_MEDIEVAL</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_RENAISSANCE</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_INDUSTRIAL</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_MODERN</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_POSTMODERN</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_FUTURE</EraType>
+		</Row>
+	</Belief_EraFaithUnitPurchase>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS" />
+		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
+			<Text>Use [ICON_PEACE] Faith to purchase land units.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

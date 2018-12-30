@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Constabulary now also gives +1 Happiness -->
+	<Buildings>
+		<Update>
+			<Set Happiness="1" />
+			<Where Type="BUILDING_CONSTABLE" />
+		</Update>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CONSTABLE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+
+</GameData>

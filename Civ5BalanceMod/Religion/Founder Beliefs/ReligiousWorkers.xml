@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/13/2017 12:42:03 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_RELIGIOUS_WORKERS</Type>
+			<Description>TXT_KEY_BELIEF_RELIGIOUS_WORKERS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_WORKERS_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_WORKERS</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+	<Language_en_US>
+		<!-- Religious Trade -->
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_WORKERS_SHORT">
+			<Text>Religious Workers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_WORKERS">
+			<Text>+2 [ICON_PRODUCTION] Production from Holy Sites</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

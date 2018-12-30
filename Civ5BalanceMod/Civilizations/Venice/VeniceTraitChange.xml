@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Now grants all great person tile improvements gain +3 of their default yields -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_RISE_OF_VENICE</Type>
+			<Description>TXT_KEY_TRAIT_RISE_OF_VENICE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_RISE_OF_VENICE_SHORT</ShortDescription>
+			<NoAnnexing>true</NoAnnexing>
+			<FreeUnit>UNITCLASS_MERCHANT</FreeUnit>
+			<FreeUnitPrereqTech>TECH_OPTICS</FreeUnitPrereqTech>
+			<NumTradeRoutesModifier>100</NumTradeRoutesModifier>
+		</Row>
+	</Traits>
+	<Trait_NoTrain>
+		<Row>
+			<TraitType>TRAIT_RISE_OF_VENICE</TraitType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+		</Row>
+	</Trait_NoTrain>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_RISE_OF_VENICE</TraitType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RISE_OF_VENICE</TraitType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RISE_OF_VENICE</TraitType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RISE_OF_VENICE</TraitType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_RISE_OF_VENICE">
+			<Text>Gain a free Merchant of Venice at Optics, number of trade routes are doubled and receives +3 additional yields from great person tile improvements. Cannot Annex Cities or train Settlers and can Purchase in Puppeted Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_RISE_OF_VENICE_SHORT">
+			<Text>Rise Of Venice</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

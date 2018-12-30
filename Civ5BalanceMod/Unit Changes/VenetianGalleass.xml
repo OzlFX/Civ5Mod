@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/11/2017 4:45:59 AM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set PrereqTech="TECH_OPTICS" />
+			<Where Type="UNIT_VENETIAN_GALLEASS" />
+		</Update>
+	</Units>
+</GameData>

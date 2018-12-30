@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Reduce the amount of science per population for the Paper Maker -->
+	<Building_YieldChangesPerPop>
+		<Update>
+			<Set Yield="10" />
+			<Where BuildingType="BUILDING_PAPER_MAKER" />
+		</Update>
+	</Building_YieldChangesPerPop>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP">
+			<Text>Unique Library replacement for China. +1 [ICON_RESEARCH] Science for every 10 [ICON_CITIZEN] Citizens and +1 [ICON_GOLD] Gold in this City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

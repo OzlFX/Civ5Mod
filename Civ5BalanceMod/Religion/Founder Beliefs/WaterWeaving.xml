@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add a new founder belief. +1 gold and faith from all buildable ocean buildings -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_WATER_WEAVING</Type>
+			<Description>TXT_KEY_BELIEF_WATER_WEAVING</Description>
+			<ShortDescription>TXT_KEY_BELIEF_WATER_WEAVING_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_WATER_WEAVING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_WATER_WEAVING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HARBOUR</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_WATER_WEAVING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_WATER_WEAVING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_WATER_WEAVING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HARBOUR</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_WATER_WEAVING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	<Language_en_US>
+		<!-- Religious Trade -->
+		<Row Tag="TXT_KEY_BELIEF_WATER_WEAVING_SHORT">
+			<Text>Water Weaving</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_WATER_WEAVING">
+			<Text>+1 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith for every lighthouse, harbour and seaport in each city.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

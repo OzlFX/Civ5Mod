@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Remove Zero UU. Add UB Dojo; +2 science, +35% science and 15 exp for land units -->
+<GameData>
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_JAPANESE_ZERO" />
+	</Civilization_UnitClassOverrides>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DOJO</Type>
+			<BuildingClass>BUILDINGCLASS_UNIVERSITY</BuildingClass>
+			<Cost>190</Cost>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<GoldMaintenance>3</GoldMaintenance>
+			<FaithCost>210</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<Help>TXT_KEY_BUILDING_DOJO_HELP</Help>
+			<Description>TXT_KEY_BUILDING_DOJO</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_DOJO_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_DOJO_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DOJO</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_DOJO</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>35</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<BuildingType>BUILDING_DOJO</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_DOJO</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_DOJO</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DOJO</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOJO</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>55</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_DOJO">
+			<Text>Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
+			<Text>A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
+			<Text>A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_PEDIA">
+			<Text>The dojo is japanese building used for learning and training. Dojos were used to teach younger members of society the ways of japanese culture, from martial arts to sciences. Wiki link: https://en.wikipedia.org/wiki/Dojo</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_DOJO">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The dojo is japanese building used for learning and training. Dojos were used to teach younger members of society the ways of japanese culture, from martial arts to sciences. Wiki link: https://en.wikipedia.org/wiki/Dojo</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_DOJO">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The dojo is japanese building used for learning and training. Dojos were used to teach younger members of society the ways of japanese culture, from martial arts to sciences. Wiki link: https://en.wikipedia.org/wiki/Dojo</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_DOJO">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Dojo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique university for japan which costs more to produce. Unlike the university it replaces, the dojo increases science produced in that city by 35% and provides 2 science. Additionally the dojo provides 15 experience for land units. Allows Archaeologists to be built in this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DOJO_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The dojo is japanese building used for learning and training. Dojos were used to teach younger members of society the ways of japanese culture, from martial arts to sciences. Wiki link: https://en.wikipedia.org/wiki/Dojo</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

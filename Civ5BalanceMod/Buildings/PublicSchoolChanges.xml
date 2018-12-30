@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Reduce the amount of science per population for the Public School -->
+	<Building_YieldChangesPerPop>
+		<Update>
+			<Set Yield="25" />
+			<Where BuildingType="BUILDING_PUBLIC_SCHOOL" />
+		</Update>
+	</Building_YieldChangesPerPop>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 4 [ICON_CITIZEN] Citizens in this City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

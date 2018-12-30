@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Remove B17 and give Colonist UU which ignores terrain costs -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SETTLER</Class>
+			<Type>UNIT_AMERICAN_COLONIST</Type>
+			<Moves>2</Moves>
+			<Cost>110</Cost>
+			<!--<Capture>UNITCLASS_WORKER</Capture>-->
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_COLONIST</Description>
+			<Civilopedia>TXT_KEY_UNIT_COLONIST_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_COLONIST_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_COLONIST</Help>
+			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
+			<Food>true</Food>
+			<Found>true</Found>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AMERICAN_COLONIST</UnitType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AMERICAN_COLONIST</UnitType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AMERICAN_COLONIST</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_AMERICAN_B17" />
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitType>UNIT_AMERICAN_COLONIST</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>Colonist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>A unique settler only America can build. Unlike the settler it replaces, this unit cannot be captured but can be killed. The colonist ignores terrain costs and has 2 movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_PEDIA">
+			<Text>The colonists were people who travelled far and wide to find new land to claim.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>Use the Colonist to expand quickly and get your empire running faster than other civilizations.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Colonist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler only America can build. Unlike the settler it replaces, this unit cannot be captured but can be killed. The colonist ignores terrain costs and has 2 movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The colonists were people who travelled far and wide to find new land to claim.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Use the Colonist to expand quickly and get your empire running faster than other civilizations.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Colonist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler only America can build. Unlike the settler it replaces, this unit cannot be captured but can be killed. The colonist ignores terrain costs and has 2 movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The colonists were people who travelled far and wide to find new land to claim.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Use the Colonist to expand quickly and get your empire running faster than other civilizations.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Colonist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique settler only America can build. Unlike the settler it replaces, this unit cannot be captured but can be killed. The colonist ignores terrain costs and has 2 movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The colonists were people who travelled far and wide to find new land to claim.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Use the Colonist to expand quickly and get your empire running faster than other civilizations.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

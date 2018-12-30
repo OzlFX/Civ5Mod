@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add the pontoon bridge from the civil war scenario -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_PONTOON_BRIDGE</Type>
+			<Description>TXT_KEY_CIVIL_WAR_SCENARIO_PONTOON_BRIDGE</Description>
+			<Civilopedia>TXT_KEY_CIVIL_WAR_SCENARIO_PONTOON_BRIDGE_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIVIL_WAR_SCENARIO_PONTOON_BRIDGE_HELP</Help>
+			<Water>true</Water>
+			<AllowsWalkWater>true</AllowsWalkWater>
+			<OutsideBorders>true</OutsideBorders>
+			<RequiresXAdjacentLand>3</RequiresXAdjacentLand>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<DisplacePillager>true</DisplacePillager>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_PONTOON_BRIDGE</ArtDefineTag>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIVIL_WAR_IMPROVEMENT_ICON_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PONTOON_BRIDGE</ImprovementType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<Builds>
+		<Row>
+			<Type>BUILD_PONTOON_BRIDGE</Type>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<ImprovementType>IMPROVEMENT_PONTOON_BRIDGE</ImprovementType>
+			<Description>TXT_KEY_BUILD_PONTOON_BRIDGE</Description>
+			<Help>TXT_KEY_BUILD_PONTOON_BRIDGE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_PONTOON_BRIDGE_REC</Recommendation>
+			<Water>true</Water>
+			<CanBeEmbarked>true</CanBeEmbarked>
+			<Kill>true</Kill>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_Z</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>CIVIL_WAR_UNIT_ACTION_ICON_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<BuildType>BUILD_PONTOON_BRIDGE</BuildType>
+		</Row>
+	</Unit_Builds>
+</GameData>

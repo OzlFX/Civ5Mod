@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Complete rework of Carthage UA and remove Quinquereme as a UU.
+Now has UB Cothon that replaces harbor, giving a free Quinquereme unit -->
+<GameData>
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_CARTHAGINIAN_QUINQUEREME" />
+	</Civilization_UnitClassOverrides>
+	<Traits>
+		<Update>
+		<Set CrossesMountainsAfterGreatGeneral="false" FreeBuilding="BUILDING_COTHON" />
+		<Where Type="TRAIT_PHOENICIAN_HERITAGE" />
+		</Update>
+	</Traits>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_COTHON</Type>
+			<BuildingClass>BUILDINGCLASS_HARBOR</BuildingClass>
+			<Cost>190</Cost>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_COTHON_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COTHON</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COTHON_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_COTHON_STRATEGY</Strategy>
+			<ArtDefineTag>HARBOR</ArtDefineTag>
+			<Water>true</Water>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<DisplayPosition>16</DisplayPosition>
+			<AllowsWaterRoutes>true</AllowsWaterRoutes>
+			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>100</TradeRouteSeaGoldBonus>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_COTHON</BuildingType>
+			<UnitType>UNIT_QUINQUEREME</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<BuildingType>BUILDING_COTHON</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_COTHON">
+			<Text>Cothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_HELP">
+			<Text>A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_STRATEGY">
+			<Text>A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_PEDIA">
+			<Text>The Cothon was a harbor divided into two parts, a rectangular merchant harbor and a inner more secure and protected harbor which only purpose was military usage. Wiki link: https://en.wikipedia.org/wiki/Cothon</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE" />
+		<Row Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
+			<Text>All coastal Cities get a free Cothon.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_COTHON">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Cothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Cothon was a harbor divided into two parts, a rectangular merchant harbor and a inner more secure and protected harbor which only purpose was military usage. Wiki link: https://en.wikipedia.org/wiki/Cothon</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE" />
+		<Row Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]All coastal Cities get a free Cothon.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_COTHON">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Cothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Cothon was a harbor divided into two parts, a rectangular merchant harbor and a inner more secure and protected harbor which only purpose was military usage. Wiki link: https://en.wikipedia.org/wiki/Cothon</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE" />
+		<Row Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]All coastal Cities get a free Cothon.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_COTHON">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Cothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]A unique harbor for cathage that can only be obtained through the unique ability. Provides a free Quinquereme and costs no maintenance, has the same bonuses as a normal harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COTHON_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]The Cothon was a harbor divided into two parts, a rectangular merchant harbor and a inner more secure and protected harbor which only purpose was military usage. Wiki link: https://en.wikipedia.org/wiki/Cothon</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE" />
+		<Row Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]All coastal Cities get a free Cothon.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

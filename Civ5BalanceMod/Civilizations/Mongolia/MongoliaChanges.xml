@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Mongolia UA Buff, -25% maintenance modifier for mounted units -->
+	<Trait_MaintenanceModifierUnitCombats>
+		<Row>
+			<TraitType>TRAIT_TERROR</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<MaintenanceModifier> -25 </MaintenanceModifier>
+		</Row>
+	</Trait_MaintenanceModifierUnitCombats>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>+30% Combat Strength when fighting City States or City State Units. All mounted units gain +1 [ICON_ARROW_RIGHT] Movement and -25% maintenance.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]+30% Combat Strength when fighting City States or City State Units. All mounted units gain +1 [ICON_ARROW_RIGHT] Movement and -25% maintenance.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]+30% Combat Strength when fighting City States or City State Units. All mounted units gain +1 [ICON_ARROW_RIGHT] Movement and -25% maintenance.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]+30% Combat Strength when fighting City States or City State Units. All mounted units gain +1 [ICON_ARROW_RIGHT] Movement and -25% maintenance.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

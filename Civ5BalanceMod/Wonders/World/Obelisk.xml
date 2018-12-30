@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/19/1017 5:57:06 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OBELISK</Type>
+			<DefaultBuilding>BUILDING_OBELISK</DefaultBuilding>
+			<Description>TXT_KEY_WONDER_OBELISK_DESC</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_OBELISK</Type>
+			<BuildingClass>BUILDINGCLASS_OBELISK</BuildingClass>
+			<Cost>185</Cost>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NukeImmune>true</NukeImmune>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<Help>TXT_KEY_WONDER_OBELISK_STRATEGY</Help>
+			<Description>TXT_KEY_WONDER_OBELISK_DESC</Description>
+			<Civilopedia>TXT_KEY_WONDER_OBELISK_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_WONDER_OBELISK_STRATEGY</Strategy>
+			<Quote>TXT_KEY_WONDER_OBELISK_QUOTE</Quote>
+			<ConquestProb>100</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>BW_ATLAS_OBELISK</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>Obelisk_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>Civ5_Obelisk</WonderSplashAudio>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<!-- Cotton -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Furs -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Dyes -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Copper -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Marble -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Spices -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Ivory -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Incense -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Gold -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Pearls -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Sugar -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Silk -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Wine -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Silver -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Truffles -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Crab -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Salt -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Whales -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Citrus -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Cocoa -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<!-- Gems -->
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OBELISK</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OBELISK</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_OBELISK</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>OBELISK_icon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_OBELISK</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>OBELISK_icon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_OBELISK</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>OBELISK_icon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_OBELISK</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>OBELISK_icon80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_OBELISK</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>OBELISK_icon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_DESC">
+			<Text>Obelisk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_PEDIA">
+			<Text>The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_STRATEGY">
+			<Text>The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I am the Lord thy God. Thou shalt have no other gods before Me." [NEWLINE]- The Bible, Exodus[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_DESC">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Obelisk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][NEWLINE][TAB][TAB]"I am the Lord thy God. Thou shalt have no other gods before Me." [NEWLINE]- The Bible, Exodus[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_DESC">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Obelisk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][NEWLINE][TAB][TAB]"I am the Lord thy God. Thou shalt have no other gods before Me." [NEWLINE]- The Bible, Exodus[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_DESC">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Obelisk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Obelisk provides +1 [ICON_PEACE] Faith on all Luxury resource tiles worked by the city. In addition, the Obelisk provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture. Requires Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OBELISK_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][NEWLINE][TAB][TAB]"I am the Lord thy God. Thou shalt have no other gods before Me." [NEWLINE]- The Bible, Exodus[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

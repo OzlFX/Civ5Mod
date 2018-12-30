@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/13/2017 5:05:49 AM -->
+<GameData>
+	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_FAITH" />
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>7</Yield>
+		</Row>
+	</Building_YieldChanges>
+</GameData>

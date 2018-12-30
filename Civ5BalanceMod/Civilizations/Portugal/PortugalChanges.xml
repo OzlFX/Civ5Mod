@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Feitorias now available at Compass instead of Navigation. -->
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_COMPASS" />
+			<Where Type="BUILD_FEITORIA" />
+		</Update>
+	</Builds>
+	
+</GameData>

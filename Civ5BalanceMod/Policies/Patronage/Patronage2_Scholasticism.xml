@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/2/2015 11:21:22 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set CityStateUnitFrequencyModifier="50" />
+			<Where Type="POLICY_SCHOLASTICISM" />
+		</Update>
+	</Policies>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves. In addition, City-State unit gifting is increased by 50%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

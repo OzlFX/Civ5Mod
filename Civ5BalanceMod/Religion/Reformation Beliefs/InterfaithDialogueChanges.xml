@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/8/2017 9:43:27 PM -->
+<GameData>
+	<Beliefs>
+		<!-- Make Interfaith Dialogue a Reformation belief -->
+		<Update>
+			<Set Founder="false" Reformation="true" SciencePerOtherReligionFollower="15" />
+			<Where Type="BELIEF_INTERFAITH_DIALOGUE" />
+		</Update>
+	</Beliefs>
+</GameData>

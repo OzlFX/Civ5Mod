@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Add new founder belief, Atempting to test this. Supposed to increase faith from natural wonders by 10% -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_NATURES_BLESSING</Type>
+			<Description>TXT_KEY_BELIEF_RELIGIOUS_WORKERS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_WORKERS_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	<Belief_YieldModifierNaturalWonder>
+		<Row>
+			<BeliefType>BELIEF_NATURES_BLESSING</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Belief_YieldModifierNaturalWonder>
+	<Language_en_US>
+		<!-- Religious Trade -->
+		<Row Tag="TXT_KEY_BELIEF_NATURES_BLESSING_SHORT">
+			<Text>Nature's Blessing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NATURES_BLESSING">
+			<Text>+10% [ICON_PEACE] Faith increase for each natural wonder you control. [NEW_LINE] ~ Unsure if this is how this works ~</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

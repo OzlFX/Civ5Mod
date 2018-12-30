@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/23/2016 3:04:50 AM -->
+<GameData>
+	<Policy_BuildingClassCultureChanges>
+		<Delete PolicyType="POLICY_MERCHANT_NAVY" BuildingClassType="BUILDINGCLASS_NATIONAL_TREASURY" />
+	</Policy_BuildingClassCultureChanges>
+	<Policy_BuildingClassYieldChanges>
+		<Delete PolicyType="POLICY_MERCHANT_NAVY" BuildingClassType="BUILDINGCLASS_NATIONAL_TREASURY" YieldType="YIELD_PRODUCTION" />
+	</Policy_BuildingClassYieldChanges>
+	
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_MERCHANT_NAVY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERCHANT_NAVY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERCHANT_NAVY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Merchant Navy[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold for each Harbor, Seaport, and Lighthouse. +50% [ICON_PRODUCTION] Production towards Lighthouse, Harbor, and Seaport.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

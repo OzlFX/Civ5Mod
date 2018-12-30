@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Opera Houses now provide +3 Culture by default. -->
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="3" />
+			<Where BuildingType="BUILDING_OPERA_HOUSE" YieldType="YIELD_CULTURE" />
+		</Update>
+	</Building_YieldChanges>
+	
+</GameData>

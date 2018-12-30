@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Customs House gets +2 gold at Economics (up from +1) -->
+	<Improvement_TechYieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where ImprovementType="IMPROVEMENT_CUSTOMS_HOUSE" TechType="TECH_ECONOMICS" YieldType="YIELD_GOLD" />
+		</Update>
+	</Improvement_TechYieldChanges>
+  
+</GameData>

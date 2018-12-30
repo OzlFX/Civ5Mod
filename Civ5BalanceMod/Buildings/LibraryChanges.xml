@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Reduce the amount of science per population for the Library -->
+	<Building_YieldChangesPerPop>
+		<Update>
+			<Set Yield="10" />
+			<Where BuildingType="BUILDING_LIBRARY" />
+		</Update>
+	</Building_YieldChangesPerPop>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_LIBRARY_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_LIBRARY_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 10 [ICON_CITIZEN] Citizens in this City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2017 2:39:45 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_MOSQUE_OF_DJENNE" />
+			<Set FreeBuildingThisCity="NULL" />
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_MOSQUE_OF_DJENNE" YieldType="YIELD_FAITH" />
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldChanges>
+</GameData>

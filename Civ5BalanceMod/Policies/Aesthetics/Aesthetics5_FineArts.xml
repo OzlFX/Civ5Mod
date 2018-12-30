@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/18/2016 2:50:07 PM -->
+<GameData>
+		<!-- Fine Arts -->
+		<Policies>
+			<Update>
+				<Set HappinessToCulture="50" />
+				<Where Type="POLICY_FINE_ARTS" />
+			</Update>
+		</Policies>
+		<Policy_BuildingClassTourismModifiers>
+			<Row>
+				<PolicyType>POLICY_FINE_ARTS</PolicyType>
+				<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+				<TourismModifier>25</TourismModifier>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_FINE_ARTS</PolicyType>
+				<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+				<TourismModifier>25</TourismModifier>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_FINE_ARTS</PolicyType>
+				<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+				<TourismModifier>25</TourismModifier>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_FINE_ARTS</PolicyType>
+				<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+				<TourismModifier>25</TourismModifier>
+			</Row>
+		</Policy_BuildingClassTourismModifiers>
+		<Language_en_US>
+			<Delete Tag="TXT_KEY_POLICY_FINE_ARTS_HELP" />
+			<Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+				<Text>[COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]40% of excess [ICON_HAPPINESS_1] Happiness is converted into [ICON_CULTURE] Culture. Amphitheaters, Opera Houses, Museums, and Broadcast Towers increase city [ICON_TOURISM] Tourism output by 25%.</Text>
+			</Row>
+		</Language_en_US>
+		<Language_DE_DE>
+			<Delete Tag="TXT_KEY_POLICY_FINE_ARTS_HELP" />
+			<Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+				<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]40% of excess [ICON_HAPPINESS_1] Happiness is converted into [ICON_CULTURE] Culture. Amphitheaters, Opera Houses, Museums, and Broadcast Towers increase city [ICON_TOURISM] Tourism output by 25%.</Text>
+			</Row>
+		</Language_DE_DE>
+		<Language_PL_PL>
+			<Delete Tag="TXT_KEY_POLICY_FINE_ARTS_HELP" />
+			<Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+				<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]40% of excess [ICON_HAPPINESS_1] Happiness is converted into [ICON_CULTURE] Culture. Amphitheaters, Opera Houses, Museums, and Broadcast Towers increase city [ICON_TOURISM] Tourism output by 25%.</Text>
+			</Row>
+		</Language_PL_PL>
+		<Language_RU_RU>
+			<Delete Tag="TXT_KEY_POLICY_FINE_ARTS_HELP" />
+			<Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+				<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]40% of excess [ICON_HAPPINESS_1] Happiness is converted into [ICON_CULTURE] Culture. Amphitheaters, Opera Houses, Museums, and Broadcast Towers increase city [ICON_TOURISM] Tourism output by 25%.</Text>
+			</Row>
+		</Language_RU_RU>
+</GameData>

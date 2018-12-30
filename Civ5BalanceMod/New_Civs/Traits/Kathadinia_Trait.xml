@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/12/2017 6:50:18 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_PROGRESS_AND_DESTRUCTION</Type>
+			<Description>TXT_KEY_TRAIT_PROGRESS_AND_DESTRUCTION</Description>
+			<ShortDescription>TXT_KEY_PROGRESS_AND_DESTRUCTION_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_PROGRESS_AND_DESTRUCTION</TraitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_PROGRESS_AND_DESTRUCTION</TraitType>
+			<ImprovementType>IMPROVEMENT_MINES</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_PROGRESS_AND_DESTRUCTION</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<Langauge_en_US>
+		<!-- Kathadinia Traits -->
+		<Row Tag="TXT_KEY_TRAIT_PROGRESS_AND_DESTRUCTION">
+			<Text>Mine Improvements provide +1 [ICON_GOLD] Gold and Pasture Improvements provide +1 [ICON_CULTURE] Culture. Gain Double the amount of [ICON_RES_HORSES] Horses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_AND_DESTRUCTION_SHORT">
+			<Text>Progress and Destruction</Text>
+		</Row>
+	</Langauge_en_US>
+</GameData>

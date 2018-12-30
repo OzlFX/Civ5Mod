@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Give Venice new trait -->
+<GameData>
+	<Leader_Traits>
+		<Update>
+			<Set TraitType="TRAIT_RISE_OF_VENICE" />
+			<Where LeaderType="LEADER_ENRICO_DANDOLO" />
+		</Update>
+	</Leader_Traits>
+</GameData>

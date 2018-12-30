@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/11/2017 6:58:40 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_KATHADINIA</Type>
+			<Description>TXT_KEY_CIV_KATHADINIA_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_KATHADINIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_KATHADINIA_ADJECTIVE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_KATHADINIA</CivilopediaTag>
+			<Strategy/>
+			<DefaultPlayerColor>PLAYERCOLOR_KATHADINIA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ASSYRIA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN</ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>EXPANSION2_CIV_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>EXPANSION2_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapAssyria360x410.dds</MapImage>
+			<DawnOfManImage>DOM_Ashurbanipal.dds</DawnOfManImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_KATHADINIA_TEXT_1</DawnOfManQuote>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TURRANUS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_KXIUAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_UUIOPA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SUTAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_QUA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TRAU</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OOYTURA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HNATPHARE</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_JUIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LPAUI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_YZWALII</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_KCOVANS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_IPSHALI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PLUATII</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<LeaderheadType>LEADER_JURRAH</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<RegionType>REGION_PLAINS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+			<UnitType>UNIT_MOUNTED_RANGERS</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KATHADINIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_KATHADINIA_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_KATHADINIA_ICON</Type>
+			<Red>0.24</Red>
+			<Green>0.79</Green>
+			<Blue>0.68</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_KATHADINIA_BACKGROUND</Type>
+			<Red>1</Red>
+			<Green>1</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_KATHADINIA</Type>
+			<PrimaryColor>COLOR_PLAYER_KATHADINIA_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_KATHADINIA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_BLUE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Language_en_US>
+		<!-- Kathadinia City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_TURRANUS">
+			<Text>Turranus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KXIUAN">
+			<Text>Kxiuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UUIOPA">
+			<Text>Uuiopa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SUTAN">
+			<Text>Sutan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_QUA">
+			<Text>Qua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TRAU">
+			<Text>Trau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OOYTURA">
+			<Text>Ooytura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HNATPHARE">
+			<Text>Hnatphare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JUIA">
+			<Text>Juia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LPAUI">
+			<Text>Lpaui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_YZWALII">
+			<Text>Yzwalii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KCOVANS">
+			<Text>Kcovans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IPSHALI">
+			<Text>IpShali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PLUATII">
+			<Text>PluaTii</Text>
+		</Row>
+		<!-- Kathadinia Spy Names-->
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_0">
+			<Text>Alison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_1">
+			<Text>Paris-Wells</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_2">
+			<Text>Jenson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_3">
+			<Text>Bills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_4">
+			<Text>Lumbridge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_5">
+			<Text>Willis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_6">
+			<Text>Mills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_7">
+			<Text>Phisher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_8">
+			<Text>Ross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KATHADINIA_9">
+			<Text>Ford</Text>
+		</Row>
+		<!-- Kathadinia Empire Text -->
+		<Row Tag="TXT_KEY_CIV_KATHADINIA_ADJECTIVE">
+			<Text>Kathadinian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KATHADINIA_DESC">
+			<Text>Kathadinian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KATHADINIA_SHORT_DESC">
+			<Text>Kathadinia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KATHADINIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KATHADINIA_TEXT_1">
+			<Text>A new civ</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

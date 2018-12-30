@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/18/2017 8:12:34 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Set CityStateTradeChange="400" ProtectedMinorPerTurnInfluence="100" />
+			<Where Type="POLICY_MERCHANT_CONFEDERACY" />
+		</Update>
+	</Policies>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Merchant Confederacy[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold, and +1 [ICON_INFLUENCE] Influence per turn for trade routes with City-States.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

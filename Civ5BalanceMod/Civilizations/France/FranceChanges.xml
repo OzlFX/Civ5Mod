@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Leader_Traits>
+		<Update>
+			<Set TraitType="TRAIT_CULTURAL_VISIONS" />
+			<Where LeaderType="LEADER_NAPOLEON" />
+		</Update>
+	</Leader_Traits>
+	<!-- France Buff, +100% Theming Bonus in the capital and +1 culture from cities -->
+	<Traits>
+		<Row>
+			<Type>TRAIT_CULTURAL_VISIONS</Type>
+			<Description>TXT_KEY_TRAIT_CULTURAL_VISIONS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CULTURAL_VISIONS_SHORT</ShortDescription>
+			<CityCultureBonus>1</CityCultureBonus>
+			<CapitalThemingBonusModifier>100</CapitalThemingBonusModifier>
+		</Row>
+	</Traits>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS_SHORT">
+			<Text>Visions of Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS">
+			<Text>Tourism [ICON_TOURISM] output from theming bonuses are doubled in the capital and new Cities gain +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+	<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Visions of Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Tourism [ICON_TOURISM] output from theming bonuses are doubled in the capital and new Cities gain +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Visions of Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Tourism [ICON_TOURISM] output from theming bonuses are doubled in the capital and new Cities gain +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Visions of Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CULTURAL_VISIONS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Tourism [ICON_TOURISM] output from theming bonuses are doubled in the capital and new Cities gain +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>
